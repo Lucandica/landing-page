@@ -1,0 +1,139 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    background: #1f2937;
+    justify-content: space-between;
+    padding: 10px 30px;
+    justify-items: center;
+    flex-shrink: 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/* TOP Section */
+.top  {
+    display: flex;
+    background: #1f2937;
+    padding: 0 30px;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+    color: #a3a6ad;
+}
+
+#placeholder1 {
+    width: 200px;
+    height: fit-content;
+}
+
+/* INFORMATION Section */
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px 16px;
+}
+
+.informations p {
+    color: #8c8c8c;
+}
+
+.imagesandinfos {
+    display: flex;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.placeholder-sqr {
+    width: 100px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    border: 2px solid #3882f6
+}
+
+/* CITATION Section */
+
+.citation {
+    display: flex;
+    background: #e5e7eb;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.author {
+    justify-content: left;
+    color: black;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.action {
+    background: #3882f6;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.action button {
+    border: 1px solid white
+}
+
+/* FOOTER Section */
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #979797;
+    flex-shrink: 0;
+    padding: 20px;
+    margin-top: auto;
+}
+
