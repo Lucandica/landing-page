@@ -19,6 +19,7 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 600;
 }
 
 a {
@@ -26,13 +27,19 @@ a {
     color: #E5E7EB;
 }
 
+.links {
+    display: flex;
+    gap: 20px;
+}
+
 /* TOP Section */
 .top  {
     display: flex;
     background: #1f2937;
-    padding: 0 30px;
+    padding: 60px 30px;
     align-items: center;
     gap: 20px;
+    justify-content: space-between;
 }
 
 h1 {
@@ -47,8 +54,9 @@ p {
 }
 
 #placeholder1 {
-    width: 200px;
+    width: 400px;
     height: fit-content;
+    flex-shrink: 0;
 }
 
 /* INFORMATION Section */
@@ -56,7 +64,8 @@ p {
 .informations {
     display: flex;
     flex-direction: column;
-    padding: 0 20px;
+    padding: 60px 30px;
+    align-items: center;
 }
 
 h2 {
@@ -79,6 +88,8 @@ button {
 
 .imagesandinfos {
     display: flex;
+    justify-content: space-around;
+    gap: 50px;
 }
 
 .element {
@@ -86,6 +97,7 @@ button {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    flex-basis: 300px;
 }
 
 .placeholder-sqr {
@@ -100,6 +112,8 @@ button {
 .citation {
     display: flex;
     background: #e5e7eb;
+    padding: 60px 110px;
+    flex-direction: column;
 }
 
 .quote {
@@ -107,6 +121,7 @@ button {
     font-size: 36px;
     font-weight: 300;
     color: #1f2937;
+    width: 80%;
 }
 
 .author {
@@ -114,16 +129,28 @@ button {
     color: black;
     font-weight: 900;
     font-size: 18px;
+    align-self: flex-end;
 }
+
+/* ACTION Section */
 
 .action {
     background: #3882f6;
     margin: 50px;
     border-radius: 5px;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h3 {
+    color: white;
 }
 
 .action button {
-    border: 1px solid white
+    border: 1px solid white;
+    align-self: center;
 }
 
 /* FOOTER Section */
